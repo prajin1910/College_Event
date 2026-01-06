@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Level Article Presentation Contest</title>
+  <link rel="icon" type="image/svg+xml" href="public/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="public/college.png" alt="SJIT Logo" class="logo-img">
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <button class="nav-link" onclick="smoothScroll('about')">About</button>
+        <button class="nav-link" onclick="smoothScroll('dates')">Important Dates</button>
+        <button class="nav-link" onclick="smoothScroll('publication')">Publication Info</button>
+        <a href="https://shorturl.at/l1CDo" target="_blank" rel="noopener noreferrer" class="nav-link registers-btn">Register</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="home" id="home">
+    <marquee class="marquee-text" behavior="scroll" direction="left">
+      Organized by Department of Computer Science & Engineering, SJIT.
+    </marquee>
+    <div class="hero-banner">
+      <div class="hero-overlay">
+        <h1 class="hero-title">National Level Article Presentation Contest</h1>
+        <div class="hero-subtitle">
+          Sponsored by <br>
+          <span class="highlight-sponsor">Academic Decipher Press</span>
+        </div>
+        <p class="hero-description">Open to PhD, PG, UG, and Diploma students from all streams</p>
+        <div class="hero-buttons">
+          <a href="https://shorturl.at/l1CDo" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Register Now</a>
+          <div class="register-logo-wrapper">
+            <img src="public/register-logo.png" alt="Register Logo" class="register-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlights-section">
+      <div class="sponsor-section">
+        <div class="sponsor-container">
+          <a href="https://academicdecipher.in/" target="_blank" rel="noopener noreferrer">
+            <img src="public/dec.png" alt="Academic Decipher Logo" class="sponsor-logo">
+          </a>
+          <p class="sponsor-text">Sponsored by <strong>Academic Decipher Press</strong></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="slider-container">
+          <div class="slide-content" id="slideContent">
+            <div class="slide-icon" id="slideIcon">🎯</div>
+            <h3 class="slide-title" id="slideTitle">Contest Theme</h3>
+            <div class="slide-main-content" id="slideContent1">National Level Article Presentation Contest</div>
+            <p class="slide-subtitle" id="slideSubtitle">Showcase your research and innovation</p>
+          </div>
+          <div class="slider-dots" id="sliderDots"></div>
+        </div>
+
+        <div class="quick-info">
+          <div class="info-card">
+            <h4>Registration Deadline</h4>
+            <p>16th February 2026</p>
+          </div>
+          <div class="info-card">
+            <h4>Registration Fee</h4>
+            <p>₹100 (Offline) | ₹50 (Online)</p>
+          </div>
+          <div class="info-card">
+            <h4>Team Size</h4>
+            <p>Minimum 3 student authors</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About the Contest</h2>
+        <p>Everything you need to know about participating in our national level contest</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">🎓</div>
+          <h3>Eligibility</h3>
+          <p>Open to PhD, PG, UG, and Diploma students from any stream across India</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">👥</div>
+          <h3>Team Composition</h3>
+          <p>Minimum 3 student authors per article. One student will register for the entire group</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">💰</div>
+          <h3>Registration Charges</h3>
+          <p>₹100 for offline participation<br>₹50 for online participation</p>
+        </div>
+      </div>
+
+      <div class="rounds-section">
+        <h3>Contest Rounds</h3>
+        <div class="rounds-container">
+          <div class="round-card">
+            <div class="round-number">1</div>
+            <div class="round-content">
+              <h4>PDF Evaluation</h4>
+              <p>Initial screening of submitted articles based on content quality, originality, and relevance</p>
+            </div>
+          </div>
+          <div class="round-arrow">→</div>
+          <div class="round-card">
+            <div class="round-number">2</div>
+            <div class="round-content">
+              <h4>Hybrid Presentation</h4>
+              <p>Top 10-20 groups will present their work in a hybrid format (online/offline)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="criteria-section">
+        <h3>Evaluation Criteria</h3>
+        <div class="criteria-grid">
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Originality and innovation of the research</p>
+          </div>
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Quality of content and methodology</p>
+          </div>
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Clarity of presentation and communication</p>
+          </div>
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Relevance to current trends and applications</p>
+          </div>
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Technical depth and accuracy</p>
+          </div>
+          <div class="criteria-item">
+            <div class="criteria-bullet">✓</div>
+            <p>Visual aids and presentation quality</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rules-section">
+        <h3>Contest Rules</h3>
+        <div class="rules-container">
+          <div class="rule-item">
+            <span class="rule-number">1</span>
+            <p>Each team must have minimum 3 student authors</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">2</span>
+            <p>One student from the team will collect and register the group</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">3</span>
+            <p>Articles must be original and unpublished work</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">4</span>
+            <p>Plagiarism will lead to immediate disqualification</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">5</span>
+            <p>Registration fee: ₹100 (offline) or ₹50 (online)</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">6</span>
+            <p>Late submissions will not be accepted</p>
+          </div>
+          <div class="rule-item">
+            <span class="rule-number">7</span>
+            <p>Decision of judges will be final and binding</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publication Section -->
+  <section class="publication" id="publication">
+    <div class="container">
+      <div class="section-header">
+        <h2>Publication Opportunity</h2>
+        <p>Get your research published with ISBN recognition</p>
+      </div>
+
+      <div class="publication-content">
+        <div class="publication-main">
+          <div class="publication-icon">📚</div>
+          <div class="publication-text-with-logo">
+            <div class="publication-text">
+              <h3>Book Chapter Publication</h3>
+              <p>All quality articles which are attractive (not just winners) will be published as book chapters by <strong><a href="https://academicdecipher.in/" target="_blank" rel="noopener noreferrer">Academic Decipher Press</a></strong> with official ISBN registration.</p>
+            </div>
+            <a href="https://academicdecipher.in/" target="_blank" rel="noopener noreferrer">
+              <img src="https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=100&h=80&fit=crop" alt="Academic Decipher Logo" class="publication-inline-logo">
+            </a>
+          </div>
+        </div>
+
+        <div class="publication-features">
+          <div class="feature-card">
+            <div class="feature-icon">📖</div>
+            <h4>ISBN Registration</h4>
+            <p>Your work will be published with official ISBN, making it globally recognizable and citable</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">✍️</div>
+            <h4>Author Recognition</h4>
+            <p>Authors' names will appear on the chapter title page and in the content index</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌟</div>
+            <h4>Quality Assurance</h4>
+            <p>Only quality articles meeting publication standards will be selected for the book</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔗</div>
+            <h4>Academic Impact</h4>
+            <p>Enhance your academic profile with a published chapter in a recognized publication</p>
+          </div>
+        </div>
+
+        <div class="publisher-info">
+          <div class="publisher-card">
+            <h4>Academic Decipher Press</h4>
+            <p>A reputable academic publisher committed to disseminating quality research and scholarly work across various disciplines. Your contribution will be part of a professionally edited and formatted publication.</p>
+            <div class="publisher-highlights">
+              <span class="highlight">✓ Professional Editing</span>
+              <span class="highlight">✓ Quality Formatting</span>
+              <span class="highlight">✓ Global Distribution</span>
+              <span class="highlight">✓ Academic Recognition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-note">
+          <div class="note-icon">ℹ️</div>
+          <p><strong>Note:</strong> Publication is subject to quality review and editorial standards. Not all submitted articles may qualify for publication, but all quality work will be considered regardless of contest ranking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Important Dates Section -->
+  <section class="important-dates" id="dates">
+    <div class="container">
+      <div class="section-header">
+        <h2>Important Dates</h2>
+        <p>Mark your calendar with these crucial deadlines</p>
+      </div>
+
+      <div class="dates-container">
+        <div class="timeline" id="timeline"></div>
+      </div>
+
+      <div class="registration-section">
+        <div class="registration-card">
+          <div class="registration-content">
+            <h3>Ready to Participate?</h3>
+            <p>Don't miss out on this opportunity to showcase your research and win exciting prizes!</p>
+            <a href="https://shorturl.at/l1CDo" target="_blank" rel="noopener noreferrer" class="btn register-btn">Register Now</a>
+          </div>
+          <div class="registration-icon">🚀</div>
+        </div>
+      </div>
+
+      <div class="quick-reminders">
+        <h3>Quick Reminders</h3>
+        <div class="reminders-grid">
+          <div class="reminder-card">
+            <div class="reminder-icon">⏰</div>
+            <h4>Registration Closes Soon</h4>
+            <p>Make sure to register before 16th February 2026</p>
+          </div>
+          <div class="reminder-card">
+            <div class="reminder-icon">👥</div>
+            <h4>Team Formation</h4>
+            <p>Minimum 3 student authors required per team</p>
+          </div>
+          <div class="reminder-card">
+            <div class="reminder-icon">💳</div>
+            <h4>Registration Fee</h4>
+            <p>₹100 (offline) or ₹50 (online) per team</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="public/logo.png" alt="SJIT Logo" class="footer-logo-img">
+          </div>
+          <p class="footer-description">Organizing National Level Article Presentation Contest to promote research and innovation among students across India.</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <p>St. Joseph's Institute of Technology<br>Chennai, Tamil Nadu, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <div class="quick-links">
+            <button onclick="smoothScroll('about')">About Contest</button>
+            <button onclick="smoothScroll('dates')">Important Dates</button>
+            <button onclick="smoothScroll('publication')">Publication Info</button>
+            <a href="https://shorturl.at/l1CDo" target="_blank" rel="noopener noreferrer">Register Now</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/stjosephstech/" class="social-link">
+              <span class="social-icon">📷</span>Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-divider"></div>
+        <div class="footer-bottom-content">
+          <p>© 2025 St. Joseph's Institute of Technology. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
